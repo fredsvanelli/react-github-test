@@ -19,6 +19,8 @@ const Home: React.FC = () => {
     <>
       <h1>Validador de CPF</h1>
       <p>Criando nova alteração em master</p>
+      <input type="text" placeholder="CPF" />
+      <button type="button">Validar</button>
     </>
   );
 };
