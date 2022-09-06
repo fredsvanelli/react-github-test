@@ -4,8 +4,6 @@ import { useTranslation } from 'react-i18next';
 
 import Config from 'Config';
 
-import LanguageSwitcher from 'components/LanguageSwitcher';
-
 import useTitle from 'hooks/useTitle';
 
 const Home: React.FC = () => {
@@ -20,7 +18,6 @@ const Home: React.FC = () => {
   return (
     <>
       <h1>{t('home.title')}</h1>
-      <LanguageSwitcher />
       <p>{`v${Config.app.version}`}</p>
     </>
   );
