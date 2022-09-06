@@ -18,7 +18,7 @@ const Home: React.FC = () => {
   return (
     <>
       <h1>{t('home.title')}</h1>
-      <p>{`v${Config.app.version}`}</p>
+      <p>AAAAAAA</p>
     </>
   );
 };
