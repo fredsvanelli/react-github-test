@@ -17,7 +17,7 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <h1>{t('home.title')}</h1>
+      <h1>Validador de CPF</h1>
       <p>Criando nova alteração em master</p>
     </>
   );
