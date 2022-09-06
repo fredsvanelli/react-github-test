@@ -19,6 +19,7 @@ const Home: React.FC = () => {
     <>
       <h1>{t('home.title')}</h1>
       <p>Criando nova alteração em master</p>
+      <input type="text" placeholder="CPF" />
     </>
   );
 };
