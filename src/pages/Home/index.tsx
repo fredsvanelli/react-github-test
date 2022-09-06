@@ -18,7 +18,7 @@ const Home: React.FC = () => {
   return (
     <>
       <h1>{t('home.title')}</h1>
-      <p>AAAAAAA</p>
+      <p>BBBBBBBB</p>
     </>
   );
 };
